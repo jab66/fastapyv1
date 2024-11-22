@@ -1,0 +1,7 @@
+Levantar la aplicacion con los siguientes parametros:
+
+. main:app (nombre archivo main.py:nombre de la aplicacion app=FastAPI())
+. puerto 8080 (eleccion del puerto)
+. reload (reinicio automatico del server ante los cambios)
+. host (habilitar aplicacion en la red)
+(tst) PS C:\ProyectoPython> uvicorn main:app --port 8080 --reload --host '0.0.0.0'
